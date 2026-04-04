@@ -3,7 +3,7 @@
 - Vargas Flores Katia Paola
   
 ## Objetivo
-Desarrollar una Aplicación web desarrollada con React y Vite que consume una API de películas y muestra un listado y el detalle de cada película.
+Desarrollar una Aplicación web con React y Vite que consume una API de películas y muestra un listado y el detalle de cada película.
 
 ## Tecnologías utilizadas
 - React
@@ -26,7 +26,18 @@ npm run dev
 ## API utilizada
 https://api.themoviedb.org/
 
-## Descripción del funcionamiento
+## Descripción de funcionamiento
+
+1. Al abrir la aplicación se muestra un encabezado con el título **Películas**.
+
+2. El usuario puede navegar entre las diferentes rutas definidas en `AppRouter`:
+   - `/` → Página principal con listado de películas.
+   - `/movies/movie:id` → Página con información detallada de la película seleccionada.
+
+3. La aplicación consume la API de [The Movie DB](https://www.themoviedb.org/) para obtener datos actualizados.
+4. Cada película se presenta con su título, imagen y descripción.
+5. El usuario puede interactuar con los enlaces de navegación para cambiar de vista sin recargar la página.
+
 
 ## Links
 GitHub: ...
