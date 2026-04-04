@@ -1,7 +1,7 @@
 # Práctica 7 - App de Películas con React
 ## Proyecto individual por:
 - Vargas Flores Katia Paola
-- 
+  
 ## Objetivo
 Desarrollar una Aplicación web desarrollada con React y Vite que consume una API de
 películas y muestra un listado y el detalle de cada película.
