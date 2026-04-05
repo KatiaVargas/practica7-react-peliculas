@@ -50,7 +50,7 @@ Y un pié de página mostrando los datos principales del desarrollador
 
 ## Links
 GitHub: https://github.com/KatiaVargas/practica7-react-peliculas.git
-Netlify: https://p7-react-peliculas.netlify.app/movies/687163
+Netlify: https://p7-react-peliculas.netlify.app/
 
 ## Conclusiones
 Desarrollar este proyecto me ha dado bastante problemas al principios, más que nada por el nuevo manejo con las APIs
