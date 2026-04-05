@@ -28,33 +28,34 @@ https://api.themoviedb.org/
 
 ## Descripción de funcionamiento
 
-1. Al abrir la aplicación se muestra un encabezado con el título **Películas**.
+1. Al abrir la aplicación se muestra un encabezado con el título **Películas**. 
+Y un pié de página mostrando los datos principales del desarrollador
+ - Alumno
+ - Maestro
+ - Materia
+ - Ciclo escolar
+ - Mes/Año
+ - Logo de la Universidad
 
 2. El usuario puede navegar entre las diferentes rutas definidas en `AppRouter`:
    - `/` → Página principal con listado de películas.
    - `/movies/movie:id` → Página con información detallada de la película seleccionada.
 
-3. La aplicación consume la API de [The Movie DB](https://www.themoviedb.org/) para obtener datos actualizados.
-4. Cada película se presenta con su título, imagen y descripción.
-5. El usuario puede interactuar con los enlaces de navegación para cambiar de vista sin recargar la página.
 
+3. La aplicación consume la API de [The Movie DB](https://www.themoviedb.org/) para obtener datos actualizados.
+
+4. El usuario puede mover el cursor encima de las películas y puede observar un cambio mínimo en su presentación para indicar que puede ser seleccionado.
+
+5. Al seleccionar la película, redirigirá al usuario a una diferente página donde se mostrará el título de la película, el género y su descripción.
 
 ## Links
-GitHub: ...
-Netlify: ...
+GitHub: https://github.com/KatiaVargas/practica7-react-peliculas.git
+Netlify: https://p7-react-peliculas.netlify.app/movies/687163
 
 ## Conclusiones
+Desarrollar este proyecto me ha dado bastante problemas al principios, más que nada por el nuevo manejo con las APIs
+Al principio seguía los pasos del videos combinados con los pasos solicitados en el documento, aún si me daba bastante problemas de avanzar, de ahí me di cuenta la diferencia en ambas formas de hacer el proyecto, más que nada por las actualizaciones.
 
+Pero de ese error y reinicio de la práctica, pude acoplarme mejor al funcionamiento, cómo organizar cada parte, cómo llamar otros archivos, coincidencias, el uso del GET de forma más eficiente así como el manejo de las variables de entorno para mantener segura la llave API, uso de console logs para saber qué partes específicas llamar para implementar las películas
 
-1. Nombre del proyecto
-2. Integrantes del equipo
-3. Objetivo
-4. Tecnologías utilizadas
-5. Estructura general del proyecto
-6. Instalación y ejecución local
-7. Rutas utilizadas
-8. API utilizada
-9. Capturas o descripción de funcionamiento
-10. Link del repositorio
-11. Link del despliegue en Netlify
-12. Conclusiones
+Fue un proyecto muy interesante
