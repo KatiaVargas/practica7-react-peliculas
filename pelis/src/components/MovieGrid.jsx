@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { get } from "../services/httpClient";
 import { MovieCard } from "./MovieCard";
-
+import "../components/MovieGrid.css";
 
 export function MovieGrid(){
     const [movies, SetMovies] = useState([]);
@@ -13,7 +13,7 @@ export function MovieGrid(){
     }, []);
 
     return (
-        <ul>
+        <ul className="container">
         {movies.map(movie => (
             <MovieCard
             key={movie.id}
